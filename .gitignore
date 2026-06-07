@@ -10,8 +10,10 @@ obj/
 .DS_Store
 Thumbs.db
 
-# NOTE: .csharpen/ (templates + manual saves + passing submissions) is intentionally NOT ignored.
-# It travels with the project so you can sync across machines.
+# .csharpen/ holds your blank templates and manual saves — intentionally NOT ignored,
+# so progress travels with the project across machines.
+# EXCEPT passing/ : it stores solved answers, kept local so they don't ship in the repo.
+.csharpen/passing/
 
 # Obsidian vault memory symlink (not committed)
 .memory
