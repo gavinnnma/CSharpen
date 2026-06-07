@@ -1,0 +1,17 @@
+# .NET build output
+bin/
+obj/
+
+# Rider / VS
+.idea/
+*.user
+
+# OS
+.DS_Store
+Thumbs.db
+
+# NOTE: .csharpen/ (templates + manual saves + passing submissions) is intentionally NOT ignored.
+# It travels with the project so you can sync across machines.
+
+# Obsidian vault memory symlink (not committed)
+.memory
